@@ -1,0 +1,7 @@
+{
+  "name": "iRd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
