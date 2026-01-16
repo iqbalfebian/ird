@@ -5,7 +5,6 @@ import {
   Photo,
 } from "@capacitor/camera";
 import { onMounted, ref, watch } from "vue";
-import type { Photo } from "@capacitor/camera";
 import { Filesystem, Directory } from "@capacitor/filesystem";
 import { Preferences } from "@capacitor/preferences";
 import { isPlatform } from "@ionic/vue";
