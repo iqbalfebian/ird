@@ -46,7 +46,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/vue";
-import { camera, trash } from "ionicons/icons";
+import { camera, close, trash } from "ionicons/icons";
 import { usePhotoGallery, UserPhoto } from "@/composables/use-photo-gallery";
 
 const { photos, addNewToGallery, deletePhoto } = usePhotoGallery();
@@ -61,6 +61,7 @@ const showActionSheet = async (photo: UserPhoto) => {
         icon: trash,
         handler: () => {
           deletePhoto(photo);
+          return true
         },
       },
       {
