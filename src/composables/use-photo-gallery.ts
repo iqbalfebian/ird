@@ -4,11 +4,7 @@ import {
   CameraSource,
   Photo,
 } from "@capacitor/camera";
-import { Directory, Filesystem } from "@capacitor/filesystem";
-import { Preferences } from "@capacitor/preferences";
 import { onMounted, ref, watch } from "vue";
-import { ref, watch, onMounted } from "vue";
-import { Camera, CameraResultType, CameraSource } from "@capacitor/camera";
 import type { Photo } from "@capacitor/camera";
 import { Filesystem, Directory } from "@capacitor/filesystem";
 import { Preferences } from "@capacitor/preferences";
